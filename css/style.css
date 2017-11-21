@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:300,400');
+@import url(../fonts/font-awesome/css/font-awesome.min.css);
+body{
+	height: 2000px;
+}
+/*start upper bar*/
+.upper-bar{
+    background-color:#08526d;
+    color: #FFF;
+    padding:10px;
+    
+
+}
+/*  Decleration for ubber-bar span*/
+.upper-bar span{
+    color: #bfc6c9;
+}
+.upper-bar .get-quote{
+    display: inline-block;
+    border: 1px solid #ec1c23;
+    padding: 2px 10px;
+    margin-left: 20px;
+}
+
+/*start navbar decleration*/
+.navbar-brand span{
+    font-size: 40px;
+}
+
+
+.navbar-brand span:first-child{
+    font-weight: bold;
+    color:#08526d;
+}
+.navbar-brand span:last-child{
+ color:#ec1c23;
+    
+}
+.navbar-nav .nav-link{
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-left: 20px;
+    color:#08526d;
+    
+}
+.navbar-nav .active>.nav-link{
+    color:#ec1c23 !important;
+}
+/*end navbar decleration*/
+/* start slider*/
+.slider{
+    background-color: #DDD;
+}
+.slider .carousel-inner{
+	display: flex;
+	align-items: center;
+	justify-content: left;
+	
+}
+.slider .carousel-inner h1{
+	position: absolute;
+	color: #FFF;
+	z-index: 3;
+	font-size: 70px;
+	max-width: 800px;
+	line-height: 1.5;
+	left: 100px;
+	
+}
+
+.slider .carousel-inner h1 span{
+	background-color: #ec1c23;
+	display: inline-block;
+	padding: 2px 10px;
+	
+}
+.slider .carousel-inner .overlay{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left:0;
+	background-color: rgba(0, 0, 0, 0.61);
+	z-index: 2;
+}
+.slider .carousel-item{
+	background-size: cover;
+}
+.slider .carousel-one{
+	background-image: url(../images/1920X1080-Wallpaper-20-1.jpg);
+}
+.slider .carousel-two{
+	background-image: url(../images/LC3JMBJ.jpg);
+}
+.slider .carousel-three{
+	background-image: url(../images/22106af59a0f95b1b950d12d3073e1e9.jpg);
+}
+.slider .carousel-indicators li{
+	height:8px;
+	cursor: pointer;
+}
+/* End slider*//
+
+/* Start features*/
+.features{
+	padding: 80px;
+	background-color: aliceblue;
+}
+
+.features i{
+	background-color:#ed1d24;
+	color: #FFF;
+	padding: 12px;
+	margin-bottom: 10px;
+	
+}
+.features h3{
+	color: #08526d;
+	font-size: 22px;
+}
+.features p{
+	color: #838484;
+}
+/* end features*/
+
+/*start overwiew*/
+.overview{
+	padding: 100px;
+	background: #EEE;
+}
+.overview h2{
+	font-size: 50px;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-bottom: 30px;
+}
+.overview p{
+	line-height: 2;
+	font-size: 20px;
+	width: 80%;
+	margin: 0 auto 20px;
+	color: #6a6a6a;
+	
+}
+.overview h4{
+	letter-spacing: 2px;
+	font-weight: normal;
+	color: #8a8a8a; 
+	margin-bottom: 40px;
+	
+	
+}
+.overview button{
+	background-color: #ed1d24;
+	color:#FFF;
+	padding: 10px 30px;
+	font-size: 20px;
+	font-weight: bold;
+	border: 1px solid #ed1d24;
+}

@@ -1,0 +1,23 @@
+@import url(particles-grid.css);
+div{
+    background-image:url(../images/work.jpg);
+    background-size: cover;
+    font-family: sans-serif;
+    font-style: italic;
+    text-decoration-style:dashed;
+    background-position:center;
+    /*background:#FAEBD7 url(../images/work.jpg); */
+    color: #faebd7; /* Color properties*/
+    direction:inherit; /*diriction of the letter*/
+    letter-spacing: 1px; /*space between the letters*/
+    text-transform: capitalize;/*if i want to make the first letter capital in all of my word */
+
+}
+/* wenn i want5 to make a shadow in the button or something else */
+a:hover{
+    box-shadow: 10px 10px 38px 0px rgba(250, 245, 215, 0.37)
+    
+}
+.port{
+    text-align: center;
+}
