@@ -239,19 +239,23 @@ body {
 	cursor: pointer;
 }
 
-.featured-work .shuffle-images{
+.featured-work .shuffle-images {
 	margin-top: 50px;
 }
-.featured-work .row .col-md{
+
+.featured-work .row .col-md {
 	padding: 0;
 }
+
 .featured-work .row img {
 	width: 100%;
 }
+
 /*end overwiew*/
 
 /*start contact*/
-div.container{
+
+div.container {
 	background-color: #FFF;
 	background: #FFF;
 }
